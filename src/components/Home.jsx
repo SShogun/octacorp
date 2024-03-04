@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, Route, Routes} from 'react-router-dom'
 import Downloads from './Downloads'
+import './Home.css'
 const Home = () => {
     return (
         <>
