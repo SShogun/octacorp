@@ -13,9 +13,9 @@ const About = () => {
             <div className="mt-10 text-xl">
                 We are available on multiple text editors like <br />
                 <div className="w-full flex flex-row gap-5 justify-center mt-2">
-                    <img src={vscode} alt="vscode" width={70} />
-                    <img src={sublime} alt="sublime" width={70}/>
-                    <img src={pycharm} alt="pycharm" width={70}/>
+                    <a href="https://code.visualstudio.com/" target="_blank"><img src={vscode} alt="vscode" width={70} /></a>
+                    <a href="https://www.sublimetext.com/"><img src={sublime} alt="sublime" width={70}/></a>
+                    <a href="https://www.jetbrains.com/pycharm/"><img src={pycharm} alt="pycharm" width={70}/></a>
                 </div>
             </div>
 

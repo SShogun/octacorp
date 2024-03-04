@@ -5,6 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Feedback from './components/Feedback'
 import Team from './components/Team'
+import Error from './Error'
 import {Routes, Route } from 'react-router-dom'
 
 
@@ -15,11 +16,11 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/feedback' element={<Feedback />} />
-        <Route path='/team' element={<Team />} />
+        <Route path='/' element={<Home />} errorElement={<Error />} />
+        <Route path='/about' element={<About />} errorElement={<Error />}/>
+        <Route path='/projects' element={<Projects />} errorElement={<Error />}/>
+        <Route path='/feedback' element={<Feedback />} errorElement={<Error />}/>
+        <Route path='/team' element={<Team />} errorElement={<Error />}/>
       </Routes>
     </div>
   )

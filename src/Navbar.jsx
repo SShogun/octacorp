@@ -5,7 +5,7 @@ import'./Navbar.css'
 const Navbar = () => {
     return(
     <>
-        <div className='flex w-[100vw] h-[10vh] justify-between px-16 py-2'>
+        <div className='flex w-[100vw] h-[10vh] justify-between px-16 py-3  '>
             <Link to='/'>
                 <p className='text-3xl select-none'>octacorp</p>
             </Link>
