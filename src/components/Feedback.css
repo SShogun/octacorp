@@ -1,0 +1,39 @@
+#name {
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 10px;
+    color: white ;
+    background: black;
+}
+
+#email {
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 10px;
+    color: white ;
+    background: black;
+}
+
+#feedback {
+    background: black;
+    color: white;
+}
+
+#description {
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 10px;
+    color: white ;
+    background: black;
+    width: 25rem;
+}
+
+#submitBtn {
+    background: rgba(35, 35, 35, 0.731);
+    border: 1px #d3d3d3;
+    padding: 5px 10px;
+}
+#submitBtn:hover {
+    background-color: rgba(2, 132, 199);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
